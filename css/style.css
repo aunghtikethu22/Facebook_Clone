@@ -168,15 +168,15 @@ body{
 }
 .my-day{
     width: 120px;
-    height: 230px;
+    height: 200px;
     overflow: hidden;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 20px;
-    margin-right:5px ;
+    margin-right:7px ;
 }
 .my-day-owner{
     width: 40px;
@@ -200,8 +200,8 @@ body{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 110px;
-    right: 56px;
+    top: 98px;
+    right: 53px;
 
 }
 
@@ -235,8 +235,81 @@ body{
 .my-day-image{
     width: 100%;
 }
+/* post create box */
 .add-post{
+   background-color: var(--semi-dark);
+   border-radius: 20px;
+   margin: 20px 70px;
+   padding: 10px 20px;
+}
+.add-post-box{
 
+}
+.add-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.post-owner-photo{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+    margin-right: 10px;
+}
+.write-box{
+     display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    border-radius: 100px;
+    background-color: var(--soft-dark);
+    flex-grow: 1;
+}
+.write-input{
+    color: var(--text);
+    background-color: var(--soft-dark);
+    border: none;
+    font-size: 18px;
+}
+.write-input:focus{
+    outline: none;
+}
+.divider{
+    border: 1px solid var(--soft-dark);
+    margin: 10px;
+}
+.add-file div{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.add-file div:hover{
+    background-color: var(--soft-dark);
+}
+.add-file{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-file .video i{
+    color: var(--danger);
+    margin-right: 10px;
+    font-size: 20px;
+}
+.add-file .photo i{
+    color: var(--success);
+    margin-right: 10px;
+    font-size: 20px;
+}
+.add-file .emoji i{
+    color: var(--warning);
+    margin-right: 10px;
+    font-size: 20px;
+}
+.add-file span{
+    color: #7b7b83;;
 }
 .post-list{
 
